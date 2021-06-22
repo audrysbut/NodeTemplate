@@ -1,0 +1,17 @@
+{
+  "name": "Typescript-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "watch": "nodemon",
+    "compile": "tsc --watch",
+    "start": "yarn compile & yarn watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
