@@ -4,6 +4,7 @@
   "description": "",
   "main": "./dist/main.js",
   "scripts": {
+    "build": "tsc",
     "watch": "nodemon",
     "compile": "tsc --watch",
     "start": "yarn compile & yarn watch"
